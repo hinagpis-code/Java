@@ -1,4 +1,4 @@
-public class dataString {
+public class DataString {
 
 	public static void main(String[] args) {
 	
