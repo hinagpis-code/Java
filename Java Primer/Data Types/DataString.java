@@ -5,11 +5,11 @@ public class DataString {
 		//String data type uses quotation mark 
 		//variable name should not be duplicate
 		
-		String fname = "Joschua";
-		String lname = "Ordonio";
+		String fname = "Hinagpis";
+		String lname = "Code";
 
-		System.out.println(fname); //output: Joschua
-		System.out.println(lname); //output: Ordonio
+		System.out.println(fname); //output: Hinagpis
+		System.out.println(lname); //output: Code
 		
 		/*
 		 * You can set numbers into string data types
