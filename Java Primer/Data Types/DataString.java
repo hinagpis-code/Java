@@ -21,5 +21,4 @@ public class DataString {
 		
 		System.out.println(number); //output : 123
 	}
-
 }
