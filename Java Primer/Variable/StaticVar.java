@@ -12,8 +12,16 @@ public class StaticVar{
   //static int variable
   public static int age = 20;
   
+  //class instance/object
+  public void myName(String name){
+    System.out.println(name);
+  }
+  
  public static void main(String[] args){
    
+   StaticVar obj = new StaticVar();
+   
+   obj.myName(name);
    System.out.print("My age is " + age); //Output: My age is 20
    
  }
