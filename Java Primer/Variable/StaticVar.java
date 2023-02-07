@@ -21,7 +21,7 @@ public class StaticVar{
    
    StaticVar obj = new StaticVar();
    
-   obj.myName(name);
+   obj.myName(name); //output: Hinagpis Code
    System.out.print("My age is " + age); //Output: My age is 20
    
  }
