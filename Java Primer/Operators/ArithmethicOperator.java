@@ -2,6 +2,10 @@ public class ArithmethicOperator{
   
  public static void main(String [] args){
   
+   /* 
+  Arithmetic operators are used to
+  perform common mathematical operations.
+  */
    
    int x = 10, y = 11;
    
@@ -27,10 +31,6 @@ public class ArithmethicOperator{
    //Decrement Operator (--) = Decrease the value of variable by 1.
      System.out.println(x--);
     System.out.println(y--);
-   
-   
-   
-   
    
  }
   
