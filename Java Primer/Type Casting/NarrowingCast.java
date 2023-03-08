@@ -12,7 +12,7 @@ public class NarrowingCast {
     double num1 = 100D;
    
    //we change the data type of num1
-   int average = (int) num1; //manual casting
+   int average = (int) num1; //manual casting or explicit conversion
    
    System.out.print(average);
    
