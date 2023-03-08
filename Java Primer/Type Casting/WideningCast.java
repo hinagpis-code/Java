@@ -11,6 +11,7 @@ public class WideningCast{
    
   short average = 89;
    
+//    implicit conversion
   int myAverage = average; //Automatic change data type from short > int
    
    System.out.print(myAverage);
