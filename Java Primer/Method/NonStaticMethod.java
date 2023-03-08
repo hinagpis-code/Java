@@ -24,8 +24,9 @@ public class NonStaticMethod{
   
   public boolean isAdult()
   {
-    boolean adult = true;
-    System.out.println("I am adult");
+   boolean adult = true;
+   System.out.println("I am adult");
+   return adult;
   }
   
  public static void main(String[] args){
