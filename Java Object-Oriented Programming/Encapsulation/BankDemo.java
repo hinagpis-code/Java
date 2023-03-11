@@ -1,5 +1,5 @@
 class Bank{
-  
+	
 	private String name;
 	private int pin;
 	private int balance;
@@ -9,7 +9,6 @@ class Bank{
 			this.pin = pin;
 			this.balance = balance;
 		}
-	
 	
 	public String setName(String name) {
 		this.name = name;
@@ -42,6 +41,7 @@ class Bank{
 public class BankDemo {
 
 	public static void main(String[] args) {
+		
 		Bank account1 = new Bank("Unknown Name", 0000, 100);
 		
 		//we will get first the default value
@@ -49,7 +49,6 @@ public class BankDemo {
 		account1.getName();
 		account1.getPin();
 		account1.getBalance();
-		
 		
 		//we will set new value
 		account1.setName("Hinagpiss Code");
@@ -65,3 +64,4 @@ public class BankDemo {
 	}
 
 }
+
